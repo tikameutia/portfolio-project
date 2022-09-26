@@ -1,15 +1,11 @@
 :root {
-  --heading-color: #849194;
-  --paragraph-color: #475355;
-  --accent-color: #b87564;
-  --background-color: #f5f5f5;
+  --heading-color: #8e8e65;
+  --paragraph-color: #484036;
+  --accent-color: #cacab0;
+  --background-color: #ecece4;
   --heading-font-family: "Montserrat", sans-serif;
   --sub-heading-font-family: "Lora", serif;
   --default-font-family: "Hind Madurai", sans-serif;
-}
-
-body {
-  background-color: var(--background-color);
 }
 
 h1 {
@@ -27,4 +23,61 @@ h3 {
 p {
   font-family: var(--default-font-family);
   color: var(--paragraph-color);
+}
+
+button {
+  align-items: center;
+  background-color: var(--accent-color);
+  border: 2px solid #ecece4;
+  border-radius: 8px;
+  box-sizing: border-box;
+  color: #ffff;
+  cursor: pointer;
+  display: flex;
+  font-size: 16px;
+  height: 48px;
+  justify-content: center;
+  line-height: 24px;
+  max-width: 100%;
+  padding: 0 25px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+button:after {
+  background-color: #ecece4;
+  border-radius: 8px;
+  content: "";
+  display: block;
+  height: 48px;
+  left: 0;
+  width: 100%;
+  position: absolute;
+  top: -2px;
+  transform: translate(8px, 8px);
+  transition: transform 0.2s ease-out;
+  z-index: -1;
+}
+
+button:hover:after {
+  transform: translate(0, 0);
+}
+
+button:active {
+  background-color: var(--accent-color);
+  outline: 0;
+}
+
+button:hover {
+  outline: 0;
+}
+
+@media (min-width: 768px) {
+  button {
+    padding: 0 40px;
+  }
 }
