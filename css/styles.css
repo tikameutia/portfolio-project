@@ -8,21 +8,54 @@
   --default-font-family: "Hind Madurai", sans-serif;
 }
 
+body {
+  font-family: var(--default-font-family);
+  color: var(--paragraph-color);
+}
+
 h1 {
   color: var(--heading-color);
   font-family: var(--heading-font-family);
   font-weight: bold;
 }
 
-h3 {
+h2 {
   color: var(--accent-color);
   font-family: var(--sub-heading-font-family);
   font-style: italic;
 }
 
-p {
-  font-family: var(--default-font-family);
+.hero {
+  background: var(--background-color);
+  text-align: center;
+  padding: 200px 20px;
+}
+
+.hero p {
+  font-family: var(--heading-font-family);
+  color: var(--heading-color);
+  font-size: 48px;
+}
+
+.hero h1 {
+  font-size: 96px;
+}
+
+.hero h2 {
   color: var(--paragraph-color);
+}
+
+.hero .btn {
+  background-color: white;
+  padding: 10px 25px;
+  font-family: var(--sub-heading-font-family);
+  font-size: 18px;
+  font-style: italic;
+}
+
+.hero .btn:hover {
+  background-color: var(--accent-color);
+  color: white;
 }
 
 button {
@@ -33,11 +66,14 @@ button {
   box-sizing: border-box;
   color: #ffff;
   cursor: pointer;
-  display: flex;
+  display: block;
+  font-family: var(--sub-heading-font-family);
   font-size: 16px;
+  font-style: italic;
   height: 48px;
   justify-content: center;
   line-height: 24px;
+  margin: 0 auto;
   max-width: 100%;
   padding: 0 25px;
   position: relative;
@@ -74,10 +110,4 @@ button:active {
 
 button:hover {
   outline: 0;
-}
-
-@media (min-width: 768px) {
-  button {
-    padding: 0 40px;
-  }
 }
