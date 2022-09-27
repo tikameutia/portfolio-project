@@ -9,8 +9,8 @@
 }
 
 body {
-  font-family: var(--default-font-family);
   color: var(--paragraph-color);
+  font-family: var(--default-font-family);
 }
 
 h1 {
@@ -27,14 +27,8 @@ h2 {
 
 .hero {
   background: var(--background-color);
-  text-align: center;
   padding: 200px 20px;
-}
-
-.hero p {
-  font-family: var(--heading-font-family);
-  color: var(--heading-color);
-  font-size: 48px;
+  text-align: center;
 }
 
 .hero h1 {
@@ -43,14 +37,22 @@ h2 {
 
 .hero h2 {
   color: var(--paragraph-color);
+  padding-bottom: 8px;
+}
+
+.hero p {
+  color: var(--heading-color);
+  font-family: var(--heading-font-family);
+  font-size: 48px;
+  margin-bottom: 0;
 }
 
 .hero .btn {
   background-color: white;
-  padding: 10px 25px;
   font-family: var(--sub-heading-font-family);
   font-size: 18px;
   font-style: italic;
+  padding: 10px 25px;
 }
 
 .hero .btn:hover {
