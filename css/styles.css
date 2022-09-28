@@ -75,7 +75,6 @@ button {
   height: 48px;
   justify-content: center;
   line-height: 24px;
-  margin: 0 auto;
   max-width: 100%;
   padding: 0 25px;
   position: relative;
@@ -112,4 +111,30 @@ button:active {
 
 button:hover {
   outline: 0;
+}
+
+@media (max-width: 900px) {
+  button {
+    margin: 0 auto;
+  }
+
+  .hero {
+    padding: 100px 20px;
+  }
+
+  .hero h1 {
+    font-size: 48px;
+  }
+
+  .hero h2 {
+    font-size: 22px;
+  }
+
+  .hero p {
+    font-size: 32px;
+  }
+
+  .project-description {
+    text-align: center;
+  }
 }
