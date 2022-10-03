@@ -44,6 +44,10 @@ img {
   vertical-align: middle;
 }
 
+.about-me {
+  padding: 100px 20px;
+}
+
 .about-me h3 {
   font-size: 48px;
 }
