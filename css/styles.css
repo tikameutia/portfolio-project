@@ -38,6 +38,7 @@ h6 {
 p {
   font-size: 18px;
   line-height: 1.5;
+  padding-bottom: 10px;
 }
 
 img {
@@ -67,32 +68,47 @@ img {
   padding-bottom: 8px;
 }
 
-.btn {
-  background-color: var(--accent-color);
-  color: white;
+.btn-outline {
+  color: var(--heading-color);
+  border: 1px solid var(--heading-color);
+  border-radius: 4px;
   font-family: var(--sub-heading-font-family);
   font-size: 18px;
   font-style: italic;
-  padding: 10px 25px;
+  padding: 15px 25px;
+  text-decoration: none;
+  transition: all 150ms ease-in-out;
 }
 
-.btn:hover {
-  background-color: white;
+.btn-outline:hover {
+  background-color: var(--accent-color);
+  border: none;
+  color: white;
+  cursor: pointer;
 }
 
 .btn-branding {
   background-color: var(--accent-color);
+  border-radius: 4px;
   color: white;
   font-family: var(--sub-heading-font-family);
   font-size: 18px;
   font-style: italic;
-  padding: 10px 25px;
+  padding: 15px 25px;
+  text-decoration: none;
+  transition: all 150ms ease-in-out;
 }
 
 .btn-branding:hover {
-  background-color: var(--accent-color);
-  color: white;
-  transition: ease-in-out 4ms;
+  background-color: white;
+  border: 1px solid var(--accent-color);
+  color: var(--accent-color);
+  cursor: pointer;
+}
+
+.img-fluid {
+  display: block;
+  margin: auto 0px;
 }
 
 .project-description {
@@ -109,7 +125,6 @@ img {
   }
 
   h3 {
-    padding: 0 15px;
     font-size: 22px;
   }
 
@@ -117,7 +132,8 @@ img {
     padding: 100px 20px;
   }
 
-  .project-description {
+  .project-description,
+  .about-me {
     text-align: center;
   }
 }
