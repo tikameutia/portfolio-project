@@ -45,11 +45,11 @@ img {
   vertical-align: middle;
 }
 
-.about-me {
+.content-container {
   padding: 100px 20px;
 }
 
-.about-me h3 {
+.content-container h3 {
   font-size: 48px;
 }
 
@@ -127,7 +127,6 @@ img {
 
   h3 {
     font-size: 22px;
-    padding: 0 20px;
   }
 
   .hero {
@@ -135,7 +134,7 @@ img {
   }
 
   .project-description,
-  .about-me {
+  .content-container {
     text-align: center;
   }
 }
