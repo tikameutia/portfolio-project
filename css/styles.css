@@ -47,6 +47,16 @@ img {
   vertical-align: middle;
 }
 
+a {
+  color: var(--heading-color);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--paragraph-color);
+  cursor: pointer;
+}
+
 .contact-page {
   background-color: var(--background-color);
 }
