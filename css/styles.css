@@ -47,6 +47,10 @@ img {
   vertical-align: middle;
 }
 
+.contact-page {
+  background-color: var(--background-color);
+}
+
 .content-container {
   padding: 100px 20px;
 }
