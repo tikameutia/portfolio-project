@@ -61,6 +61,10 @@ a:hover {
   background-color: var(--background-color);
 }
 
+.contact-page .content {
+  margin-right: 90px;
+}
+
 .content-container {
   padding: 100px 20px;
 }
