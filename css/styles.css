@@ -1,8 +1,8 @@
 :root {
-  --heading-color: #8e8e65;
-  --paragraph-color: #484036;
-  --accent-color: #cacab0;
-  --background-color: #ecece4;
+  --heading-color: #759196;
+  --paragraph-color: #315c61;
+  --accent-color: #d1b02b;
+  --background-color: #f5f5f5;
   --heading-font-family: "Montserrat", sans-serif;
   --sub-heading-font-family: "Lora", serif;
   --default-font-family: "Hind Madurai", sans-serif;
@@ -88,7 +88,6 @@ a:hover {
 }
 
 .hero h3 {
-  color: var(--paragraph-color);
   line-height: 1.5;
   padding-bottom: 8px;
 }
