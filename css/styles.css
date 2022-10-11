@@ -62,14 +62,18 @@ nav img {
 }
 
 nav li {
+  display: inline;
+  line-height: 40px;
   list-style: none;
+  margin-left: 15px;
+  padding: 20px 0;
 }
 
 nav a {
   color: var(--paragraph-color);
 }
 
-nav li:active,
+nav li.active a,
 nav a:hover {
   color: var(--accent-color);
 }
