@@ -63,10 +63,9 @@ nav img {
 
 nav li {
   display: inline;
-  line-height: 40px;
+  line-height: 60px;
   list-style: none;
   margin-left: 15px;
-  padding: 20px 0;
 }
 
 nav a {
@@ -76,6 +75,10 @@ nav a {
 nav li.active a,
 nav a:hover {
   color: var(--accent-color);
+}
+
+ul {
+  margin-bottom: 0;
 }
 
 .contact-page .content {
