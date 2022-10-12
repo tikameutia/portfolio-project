@@ -126,12 +126,41 @@ ul {
   cursor: pointer;
 }
 
+.btn-fill {
+  background-color: var(--accent-color);
+  border-radius: 4px;
+  color: white;
+  font-family: var(--sub-heading-font-family);
+  font-size: 18px;
+  font-style: italic;
+  padding: 15px 25px;
+  transition: all 150ms ease-in-out;
+}
+
+.btn-fill:hover {
+  background-color: transparent;
+  border: 1px solid var(--accent-color);
+  color: var(--accent-color);
+}
+
+footer .email-link a {
+  color: var(--paragraph-color);
+  display: block;
+  font-size: 24px;
+  text-align: center;
+  transition: all 150ms ease-in-out;
+}
+
+footer .email-link a:hover {
+  color: var(--accent-color);
+}
+
 .img-fluid {
   display: block;
   margin: auto 0px;
 }
 
-.logo {
+nav .logo {
   color: var(--accent-color);
   font-family: var(--heading-font-family);
   font-size: 24px;
@@ -143,6 +172,28 @@ ul {
 
 .project-description {
   margin: 0 30px;
+}
+
+footer .social-icons a {
+  background-color: var(--background-color);
+  border-radius: 50%;
+  color: var(--accent-color);
+  font-size: 18px;
+  margin: 0 10px;
+  padding: 10px 15px;
+  transition: all 150ms ease-in-out;
+}
+
+footer .social-icons a:hover {
+  background-color: var(--accent-color);
+  color: white;
+}
+
+footer .work-inquiry {
+  background-color: var(--background-color);
+  border-radius: 10px;
+  margin: 40px 0;
+  padding: 40px 120px;
 }
 
 @media (max-width: 992px) {
