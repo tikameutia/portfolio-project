@@ -57,10 +57,6 @@ a:hover {
   cursor: pointer;
 }
 
-nav img {
-  max-height: 60px;
-}
-
 nav li {
   display: inline;
   line-height: 60px;
@@ -135,6 +131,16 @@ ul {
   margin: auto 0px;
 }
 
+.logo {
+  color: var(--accent-color);
+  font-family: var(--heading-font-family);
+  font-size: 24px;
+  letter-spacing: 0.6rem;
+  line-height: 60px;
+  text-shadow: 2px 2px 3px var(--background-color);
+  text-transform: uppercase;
+}
+
 .project-description {
   margin: 0 30px;
 }
@@ -156,11 +162,23 @@ ul {
     font-size: 22px;
   }
 
+  nav li {
+    margin-left: 5px;
+  }
+
   .hero {
     padding: 100px 20px;
   }
 
   .content-container h2 {
     font-size: 28px;
+  }
+
+  .logo {
+    font-size: 20px;
+    letter-spacing: 0.4rem;
+    line-height: 60px;
+    text-shadow: 2px 2px 3px var(--background-color);
+    text-transform: uppercase;
   }
 }
