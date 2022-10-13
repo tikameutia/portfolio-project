@@ -40,32 +40,77 @@
       </ul>
     </nav>
     <div class="container content-container">
-      <div class="row">
-        <div class="col-lg-6">
-          <h1 class="mb-3">Let's talk!</h1>
-          <p>
-            Questions, collaboration ideas, or even just a quick hello, send me
-            a note! I would love to read them all.
+      <h1>Let's talk!</h1>
+      <div class="row mb-5">
+        <div class="col-lg-6 mt-3">
+          <p class="pe-3">
+            Questions, collaboration ideas, or just a quick hello, send me a
+            note! I would love to read them all.
           </p>
-          <br />
-          <br />
-          <h5 class="mb-2">
-            <i class="fa-solid fa-envelope me-3" title="email"></i>
-            <a href="mailto:tika.meutia@gmail.com">tika.meutia@gmail.com</a>
-          </h5>
-          <h5 class="mb-2">
-            <i class="fa-brands fa-skype me-3" title="skype"></i>
-            <a href="https://join.skype.com/invite/orKPzvm6LNBr" target="_blank"
-              >tika.meutia</a
-            >
-          </h5>
+          <div class="d-none d-lg-block">
+            <br />
+            <br />
+            <h5 class="mb-2">
+              <i class="fa-solid fa-envelope me-2" title="email"></i>
+              <a href="mailto:tika.meutia@gmail.com">tika.meutia@gmail.com</a>
+            </h5>
+            <h5 class="mb-2">
+              <i class="fa-brands fa-skype me-2" title="skype"></i>
+              <a
+                href="https://join.skype.com/invite/orKPzvm6LNBr"
+                target="_blank"
+                >tika.meutia</a
+              >
+            </h5>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <form>
+            <div class="row">
+              <div class="col-lg-6">
+                <div class="form-group">
+                  <label for="inputName">Name</label>
+                  <input type="text" class="form-control" id="inputName" />
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <div class="form-group">
+                  <label for="inputEmail">Email</label>
+                  <input type="email" class="form-control" id="inputEmail" />
+                </div>
+              </div>
+            </div>
+            <div class="form-group mt-2">
+              <label for="inputMessage">Message</label>
+              <textarea
+                class="form-control"
+                id="inputMessage"
+                rows="2"
+                required
+              ></textarea>
+            </div>
+            <br />
+            <button type="submit" class="button">
+              <i class="fa fa-paper-plane me-2"></i> Send
+            </button>
+          </form>
         </div>
       </div>
+      <footer>
+        <hr />
+        <p class="text-center small mt-3">
+          This website was coded by
+          <a href="https://www.linkedin.com/in/tikameutia/" target="_blank"
+            >Tika Lubis</a
+          >
+          and open-sourced on
+          <a
+            href="https://github.com/tikameutia/portfolio-project"
+            target="_blank"
+            >Github</a
+          >
+        </p>
+      </footer>
     </div>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
-      crossorigin="anonymous"
-    ></script>
   </body>
 </html>
